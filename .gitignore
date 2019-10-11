@@ -1,3 +1,6 @@
 .idea
 .DS_Store
 botDiscord01.iml
+
+.env
+__pycache__/
