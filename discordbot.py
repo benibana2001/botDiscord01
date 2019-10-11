@@ -1,10 +1,11 @@
 # インストールした discord.py を読み込む
 import discord
-import setting
+import os
 
 # Set Token from dotenv file
-TOKEN = setting.APIKEY01
-
+# TOKEN = setting.APIKEY01
+TOKEN = os.environ.get('API_KEY_01')
+# os.environ.get('CHROME_DRIVER_PATH')
 # Create Client instance
 client = discord.Client()
 

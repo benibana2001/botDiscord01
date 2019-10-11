@@ -4,3 +4,6 @@ botDiscord01.iml
 
 .env
 __pycache__/
+
+.setting.py
+.env
